@@ -9,6 +9,6 @@ try {
     exit();
 }
 
-include 'events.html.php';
+include 'faq.html.php';
 
 ?>
