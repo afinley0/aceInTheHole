@@ -1,0 +1,538 @@
+/* MOBILE STYLESHEET */
+
+/* General CSS Settings */
+
+* {
+    padding: 10px;
+    margin: 5px;
+}
+
+body {
+    overflow-x: hidden;
+    text-rendering: optimizeLegibility !important;
+    -webkit-font-smoothing: antialiased !important;
+    line-height: 1.45em;
+}
+
+h1 {
+    line-height: 2.5em;
+    font-size: 2em;
+    padding: 12px;
+    font-family: 'Roboto Slab', serif;
+    text-transform: uppercase;
+    font-weight: bold;
+    text-align: center;
+}
+
+h2,
+h3,
+h4 {
+    line-height: 2em;
+    font-size: 1.6em;
+    padding: 12px;
+    font-family: 'Roboto Slab', serif;
+    text-transform: uppercase;
+    font-weight: bold;
+}
+
+p {
+    font-size: 1.2em;
+    line-height: 1.3em;
+    padding: 8px;
+    font-family: 'Montserrat', sans-serif;
+}
+
+div.faq {
+    margin-left: 25px;
+    padding-left: 5px;
+}
+
+li.faq {
+    list-style: circle;
+    font-size: 1em;
+    line-height: 1.5em;
+    padding: 4px;
+    font-family: 'Montserrat', sans-serif;
+}
+
+strong.cd {
+    font-weight: bold;
+}
+
+table {
+    padding: 4px;
+    font-size: 1em;
+    line-height: 1.5em;
+    font-family: 'Montserrat', sans-serif;
+}
+
+tr {
+    font-weight: bold;
+    padding: 10px;
+}
+
+th,
+td {
+    padding: 10px;
+}
+
+a.address {
+    text-decoration: none;
+    color: darkred;
+    font-weight: bold;
+}
+
+a.address:hover {
+    background-color: white;
+    color: red;
+}
+
+div.address_box {
+    margin: 10px;
+}
+
+img {
+    width: 100%;
+    height: auto;
+}
+
+/*END*/
+
+/*HEADER*/
+
+header {
+    background-color: black;
+}
+
+.automaticSlideshow {
+    width: 100%;
+}
+
+.mySlides {
+    height: 250px;
+}
+
+/*END*/
+
+/*NAVIGATION*/
+
+.navbar {
+    display: none;
+}
+
+/*END*/
+
+/* Hamburger Menu */
+.topnav {
+    overflow: hidden;
+    background-color: black;
+    position: relative;
+}
+
+.topnav #myLinks {
+    display: none;
+}
+
+.topnav a {
+    color: white;
+    padding: 14px 16px;
+    text-decoration: none;
+    line-height: 1.5em;
+    font-size: 1.1em;
+    font-family: 'Montserrat', sans-serif;
+    display: block;
+    font-weight: bold;
+}
+
+.topnav a.icon {
+    background: black;
+    display: block;
+    position: absolute;
+    right: 0;
+    top: 0;
+}
+
+.topnav a:hover {
+    background-color: black;
+    color: red;
+}
+
+.active {
+    background-color: black;
+    color: red;
+}
+
+/*END*/
+
+/*IMAGES*/
+
+.homeImg {
+    display: none;
+}
+
+/*END*/
+
+/*SIDEBAR*/
+
+.sidebar {
+    display: none;
+}
+
+/*END*/
+
+/* Footer Navigation */
+footer {
+    background-color: black;
+    color: white;
+    text-align: center;
+
+}
+
+.footer-nav {
+    background-color: black;
+    color: white;
+    height: 300px;
+    font-family: 'Montserrat', sans-serif;
+}
+
+li.fnav {
+    text-align: center;
+    font-size: 1.5em;
+    line-height: 2em;
+    list-style: none;
+}
+
+a.fnav {
+    text-decoration: none;
+    font-weight: bold;
+    color: white;
+}
+
+a:hover {
+    background-color: red;
+    color: black;
+}
+
+i.far {
+    padding: 4px;
+    color: red;
+    font-size: 1em;
+}
+
+div.center {
+    text-align: center;
+    padding-top: 4px;
+}
+
+i.fab {
+    padding: 15px;
+    font-size: 2em;
+    line-height: 2em;
+    color: white;
+}
+
+/*END*/
+
+/* Styling for Forms */
+
+input,
+textarea {
+    display: block;
+    margin-bottom: 2em;
+    padding: 5px;
+}
+
+label {
+    clear: left;
+    float: left;
+    font-size: 1em;
+    margin-bottom: 5px;
+    margin-top: 5px;
+    padding-right: 10px;
+    text-align: right;
+    width: 150px;
+    line-height: 1.5em;
+}
+
+form {
+    padding: 10px;
+    padding-top: 25px;
+    font-family: 'Montserrat', sans-serif;
+    line-height: 1.3em;
+}
+
+#honeypot {
+    display: none;
+}
+
+#mysubmit {
+    margin-left: 200px;
+}
+
+select {
+    display: block;
+    margin-bottom: 2em;
+}
+
+/*END*/
+
+/*
+SMALL TABLET STYLESHEET
+The following CSS affects all screen sizes larger than 480 pixels wide.
+*/
+
+@media only screen and (min-width: 768px) {
+
+    /*SIDEBAR*/
+
+    .sidebar {
+        display: none;
+    }
+
+    /*END*/
+
+    div.event {
+        column-count: 2;
+    }
+
+    div.twitter {
+        padding: 15px;
+        margin: 10px;
+    }
+
+}
+
+/*
+TABLET STYLESHEET
+The following CSS affects all screen sizes larger than 480 pixels wide.
+*/
+
+@media only screen and (min-width: 800px) {
+
+    /*GENERAL CSS SETTINGS*/
+
+    h2 {
+        line-height: 1.5em;
+        font-size: 1.4em;
+        padding: 12px;
+        font-family: 'Roboto Slab', serif;
+        text-transform: uppercase;
+        font-weight: bold;
+    }
+
+    h3,
+    h4 {
+        line-height: 1.5em;
+        font-size: 1.2em;
+        padding: 12px;
+        font-family: 'Roboto Slab', serif;
+        text-transform: uppercase;
+        font-weight: bold;
+    }
+
+    p {
+        font-size: 1em;
+        line-height: 1.5em;
+    }
+
+    tr {
+        font-weight: bold;
+        padding: 8px;
+    }
+
+    th,
+    td {
+        padding: 8px;
+    }
+
+    div.forms {
+        text-align: center;
+        margin-left: 25px;
+    }
+
+    /*END*/
+
+    /*Navigation*/
+    .topnav {
+        display: none;
+    }
+
+    .navbar {
+        display: block;
+        overflow: hidden;
+        z-index: 10;
+        width: 100%;
+        line-height: 3em;
+        background-color: black;
+        color: white;
+        text-align: center;
+    }
+
+    .navbar a {
+        display: inline-block;
+        color: white;
+        background-color: black;
+        text-align: center;
+        font-weight: bold;
+        padding: 5px 15px;
+        line-height: 3em;
+        text-decoration: none;
+        font-size: 1em;
+    }
+
+    .navbar a:hover {
+        background: #ff0000;
+        color: black;
+    }
+
+    /*END*/
+
+    /*HEADER*/
+    .automaticSlideshow {
+        max-width: 100%;
+    }
+
+    .mySlides {
+        width: 100%;
+        height: 400px;
+    }
+
+    /*END*/
+
+    /*IMAGES*/
+
+    .homeImg {
+        display: block;
+        width: 100%;
+        height: auto;
+        overflow: hidden;
+    }
+
+    /*END*/
+
+    /*SIDEBAR*/
+
+    .sidebar {
+        display: block;
+        width: 300px;
+        background-color: red;
+        height: 950px;
+        overflow: hidden;
+        float: left;
+    }
+
+    div.clear:after {
+        content: ".";
+        visibility: hidden;
+        display: block;
+        height: 0;
+        clear: both;
+    }
+
+    div.content_two {
+        display: inline-block;
+        float: right;
+        width: 675px;
+
+    }
+
+    /*END*/
+
+    /*FOOTER*/
+
+    .fnav {
+        text-align: center;
+    }
+
+    .footer-nav {
+        height: 170px;
+        padding-top: 3px;
+    }
+
+    footer {
+        background-color: black;
+        color: white;
+    }
+
+    .footercol {
+        column-count: 2;
+    }
+
+    div.center {
+        text-align: center;
+        padding-top: 4px;
+    }
+
+    i.fab {
+        padding: 15px;
+        font-size: 2em;
+        line-height: 2em;
+        color: white;
+    }
+
+    /*END*/
+}
+
+/*
+
+DESKTOP STYLESHEET
+
+The following CSS affects all screen sizes larger than 1024 pixels wide.
+
+*/
+@media only screen and (min-width: 1025px) {
+
+    /*GENERAL*/
+
+    div.forms {
+        text-align: left;
+        margin-left: 225px;
+    }
+
+    /*IMAGES*/
+
+    .homeImg {
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        width: 50%;
+        height: auto;
+    }
+
+    /*END*/
+
+    /*SIDEBAR*/
+
+    .sidebar {
+        display: block;
+        width: 350px;
+        background-color: red;
+        overflow: hidden;
+        float: left;
+    }
+
+    div.clear:after {
+        content: ".";
+        visibility: hidden;
+        display: block;
+        height: 0;
+        clear: both;
+    }
+
+    div.content_two {
+        display: inline-block;
+        float: right;
+        width: 850px;
+
+    }
+
+    /*END*/
+
+    /*FOOTER*/
+    .fnav {
+        text-align: center;
+    }
+
+    /*END*/
+
+}
